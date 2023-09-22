@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo com Classes e Protótipos</title>
+<link rel="stylesheet" href="_css/pesonalizaçao.css">
+    <script src="_js/Pessoa.js"></script>
+</head>
+
+<body><br>
+    <div class="matricula">
+        <div class="cabecalho">
+            <h1>Folha de Matrícula</h1>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="aluno">
+            <h2>Aluno</h2>
+            <p>Nome: rafael</p>
+            <p>Idade: 19</p>
+            <p>Número de Matrícula: 6238362</p>
+        </div>
+        <br>
+        <div class="professor">
+            <h2>Professor</h2>
+            <p>Nome: pericles</p>
+            <p>Idade: 54</p>
+            <p>Especialidade: canto</p>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="coffee-stain"></div>
+    <script>
+        const aluno1 = new Aluno("rafael", 19, "3696875");
+        const professor1 = new Professor("borges", 45, "filosofia");
+        document.getElementById("aluno").textContent = aluno1.apresentar();
+        document.getElementById("professor").textContent = professor1.apresentar();
+    </script>
+</body>
+
+</html>

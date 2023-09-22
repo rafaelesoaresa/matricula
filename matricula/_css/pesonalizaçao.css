@@ -1,0 +1,52 @@
+body {
+    background-image: url(../_img/2aa32dfc02d855f5f279d5689b43ac1d.jpg); /* Caminho para a imagem da mancha de café */
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.matricula {
+    background-color: #fefefe;
+    background-image: url(../_img/a629c4c76825bd5d529fad1fae5b77ea.png); /* Caminho para a imagem da mancha de café */
+    background-size: cover;
+    z-index: -1;
+    top: 100px; /* Ajuste a posição vertical conforme necessário */
+    left: 100px; /* Ajuste a posição horizontal conforme necessário */
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    box-shadow: 3px 3px 5px #bfbfbf;
+}
+
+.cabecalho {
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.aluno,
+.professor {
+    margin-top: 20px;
+}
+
+p {
+    margin: 5px 0;
+}
+/* Estilos para a mancha de café */
+.coffee-stain {
+    position: absolute;
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    height: 100px; /* Ajuste o tamanho conforme necessário */
+   
+}
+
